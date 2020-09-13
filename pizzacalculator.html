@@ -1,0 +1,21 @@
+<html>
+	<body>
+		<script>
+
+			// Elridge Mattheeuw pizzacalculator opdracht.
+
+			var Smallpizza = prompt("Hoeveel Small pizza wilt u?") // hoeveel kleine pizza's de klant wilt
+			var Mediumpizza = prompt("Hoeveel Medium pizza wilt u?") // aantal medium pizza's
+			var Largepizza = prompt("Hoeveel Large pizza wilt u?") // aantal large pizza's
+
+			const Smallprize = 4.95 * Smallpizza; // aantal small pizza's keer de prijs van de pizza
+			const Mediumprize = 7.50 * Mediumpizza; // aantal medium pizza's keer de prijs van de pizza 
+			const Largeprize = 10 * Largepizza; // aantal large pizza keer de prijs van de pizza
+			document.write(Smallpizza + " " + "Smallpizza =" + " " + Smallprize + "<br>" + Mediumpizza + " " + "Mediumpizza =" + " " + Mediumprize + "<br>" + Largepizza + " " + "Largepizza =" + " " + Largeprize + "<br>"); // de " " staat voor de input van de klant op deze manier zie je dat je makkelijke de berekeningen bij elkaar kan zetten om op de totale prijs te kunnen komen.
+
+			var totalprize = Smallprize + Mediumprize + Largeprize; // om de totale prijs te krijgen moet je alle prijzen bij elkaar optellen.
+			document.write("<br>" + "Totale Prijs:" + " " + totalprize); // Met de document.write zorg je ervoor dat je resultaten op het scherm verschijnen en niet als een popup.
+
+		</script>
+	</body>		
+</html>
